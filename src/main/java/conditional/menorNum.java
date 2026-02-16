@@ -2,7 +2,7 @@ package conditional;
 
 import java.util.Scanner;
 
-public class menorNum {
+public class MenorNum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

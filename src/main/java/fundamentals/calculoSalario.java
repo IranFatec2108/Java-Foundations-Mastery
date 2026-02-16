@@ -3,7 +3,7 @@ package fundamentals;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class calculoSalario {
+public class CalculoSalario {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 

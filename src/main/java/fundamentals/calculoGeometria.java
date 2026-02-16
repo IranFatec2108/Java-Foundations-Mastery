@@ -3,7 +3,7 @@ package fundamentals;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class calculoGeometria {
+public class CalculoGeometria {
     public static void main(String[] args) {
 
 

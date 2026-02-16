@@ -2,7 +2,7 @@ package conditional;
 
 import java.util.Scanner;
 
-public class duracaoHora {
+public class DuracaoHora {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(" escreva o inicio e termino do jogo em horas: ");

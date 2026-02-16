@@ -3,7 +3,7 @@ package fundamentals;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class precoTerreno  {
+public class PrecoTerreno {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 

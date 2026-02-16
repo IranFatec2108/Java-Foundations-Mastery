@@ -2,7 +2,7 @@ package repetitive;
 
 import java.util.Scanner;
 
-public class while1 {
+public class While {
     public static void main(String[] args) {
        Scanner scanner = new Scanner (System.in);
         System.out.println("Digite um numero: ");

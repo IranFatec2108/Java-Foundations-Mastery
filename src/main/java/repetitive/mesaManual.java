@@ -1,6 +1,6 @@
 package repetitive;
 
-public class mesaManual {
+public class MesaManual {
     public static void main(String[] args) {
                 // ex1();
                 // ex2();

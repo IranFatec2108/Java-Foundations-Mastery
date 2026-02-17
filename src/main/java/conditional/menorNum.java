@@ -2,7 +2,7 @@ package conditional;
 
 import java.util.Scanner;
 
-public class MenorNum {
+public class MenorNum{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,8 +14,8 @@ public class MenorNum {
         int menorNumero = Math.min(valor1, Math.min(valor2, valor3));
 
         if (valor1 == valor2 && valor2 == valor3){
-        System.out.println("MENOR = " + valor1);
-            }else {
+            System.out.println("MENOR = " + valor1);
+        }else {
             System.out.println("MENOR = " + menorNumero );
         }
 

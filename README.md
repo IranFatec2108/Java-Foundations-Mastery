@@ -1,5 +1,5 @@
 # Java Foundations Mastery 🚀
-> **Meta:** Engenheiro de Software Backend | Foco em Java 21 LTS, Arquitetura de Objetos e Performance.
+> **Meta:** Engenheiria de Software Backend | Foco em Java 21 LTS, Arquitetura de Objetos e Performance.
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk" />

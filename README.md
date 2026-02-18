@@ -1,58 +1,53 @@
 # Java Foundations Mastery 🚀
-> **Meta:** Estágio Backend Java (Junho/2026) | Foco em Java 21 LTS, Clean Code e Performance.
+> **Meta:** Engenheiro de Software Backend | Foco em Java 21 LTS, Arquitetura de Objetos e Performance.
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk" />
-  <img src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white" />
-  <img src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-OOP%20Deep%20Dive-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Maintained%3F-Daily-green?style=for-the-badge" />
 </p>
 
 ---
 
+### 🏗️ Engenharia e Arquitetura do Projeto
+Este repositório evoluiu de scripts simples para uma estrutura modular baseada em **POO (Programação Orientada a Objetos)**. O foco atual é a separação de responsabilidades (SoC) e gestão eficiente de memória.
+
+* `src/main/java/oop/application`: **Orquestração.** Camada de interação com o usuário e instanciacão de objetos (Main).
+* `src/main/java/oop/entities`: **Domínio.** Classes coesas que encapsulam lógica de negócio, atributos e métodos.
+* `fundamentals/conditional/repetitive`: Base sólida de lógica imperativa e algoritmos de alta performance.
+
+### 🧠 Diferenciais de Engenharia
+* **Gestão de Memória:** Compreensão de alocação dinâmica em **Stack vs Heap**.
+* **Encapsulamento e Coesão:** Desenvolvimento de classes onde o objeto é responsável pelo seu próprio estado e comportamento.
+* **Sobrescrita de Métodos:** Implementação de `toString()` para representação textual limpa de entidades.
+* **Higiene de Repositório:** Uso estratégico de `.gitignore` para versionamento exclusivo de código-fonte, removendo artefatos de build (`out/`, `.idea/`).
 
 
-Este repositório é o meu **Aprendizado de Engenharia de Software na Linguagem Java**. Aqui, aplico os fundamentos de Java 21 para resolver problemas de alta complexidade, evoluindo da Lógica Imperativa para a Arquitetura Orientada a Objetos.
 
 ---
 
-### 📈 Dashboard de Evolução Diária
+### 📈 Dashboard de Evolução
 | Métrica | Status Atual | Meta (Junho/2026) |
 | :--- | :--- | :--- |
-| **Frequência de Commits** | 🟢 Diários (Seg - Sex) | Constância Absoluta |
-| **Resoluções Beecrowd** | 30 / 100 | 100 Desafios |
-| **Projetos Complexos** | 0 / 3 | 3 APIs de Mercado |
+| **Resoluções Beecrowd** | 32 / 100 | 100 Desafios |
+| **Paradigma** | Orientação a Objetos | Design Patterns / SOLID |
+| **Frequência** | 🟢 Diários (Foco em Qualidade) | Constância Absoluta |
 
 ---
 
-### 📁 Engenharia do Projeto
-O uso do **Maven** garante um ciclo de vida de build profissional:
-
-* `src/main/java/f01_fundamentals`: Onde a sintaxe se torna instinto.
-* `src/main/java/f02_conditional`: Tomada de decisão e lógica booleana avançada.
-* `src/main/java/f03_repetitive`: Algoritmos de alta performance e manipulação de dados em massa.
-
-### ⚙️ Comandos de Build Utilizados
-Utilizo o ciclo de vida do Maven para garantir a integridade do código:
-* `mvn clean compile` - Limpa resíduos e valida a sintaxe.
-* `mvn package` - Gera o artefato (.jar) pronto para execução.
-
----
-
-### 🛠️ Diferenciais Técnicos
-* **Commits Semânticos:** Uso de `feat`, `fix`, `docs` e `refactor` para um histórico profissional.
-* **Maven Standard Wrapper:** Projeto estruturado para integração contínua (CI/CD).
-* **Java 21 Ready:** Utilização de Records e as melhores práticas da versão LTS mais recente.
+### 🛠️ Ciclo de Vida do Projeto (Maven)
+Utilizo o Maven para padronizar o build e a gestão de dependências:
+* `mvn clean compile` - Validação de sintaxe e limpeza de resíduos.
+* `mvn package` - Empacotamento profissional da aplicação.
 
 ---
 
 ### 🎯 Roadmap de Carreira (2026)
-"Ambiente é 5x mais forte que força de vontade."
 
-- [x] **Fase 1:** Sintaxe e Lógica (Beecrowd + Java Core) - **EM PROGRESSO**
-- [ ] **Fase 2:** POO Sólido, Collections e Tratamento de Exceções.
-- [ ] **Fase 3:** Spring Boot, JPA, e Banco de Dados (PostgreSQL, MongoDB).
-- [ ] **Fase 4:** Testes Unitários (JUnit) e Deploy Cloud.
+- [x] **Fase 1:** Sintaxe, Lógica Imperativa e Estruturas de Repetição.
+- [ ] **Fase 2:** POO Avançado (Construtores, Sobrecarga, Encapsulamento, Memória). **(EM PROGRESSO)**
+- [ ] **Fase 3:** Collections, Tratamento de Exceções e Generics.
+- [ ] **Fase 4:** Spring Boot 3.x, REST APIs, JPA/Hibernate e PostgreSQL.
 
 ---
 

@@ -12,7 +12,7 @@
 ### 🏗️ Engenharia e Arquitetura do Projeto
 Este repositório evoluiu de scripts simples para uma estrutura modular baseada em **POO (Programação Orientada a Objetos)**. O foco atual é a separação de responsabilidades (SoC) e gestão eficiente de memória.
 
-* `src/main/java/oop/application`: **Orquestração.** Camada de interação com o usuário e instanciacão de objetos (Main).
+* `src/main/java/oop`: **Orquestração.** Camada de interação com o usuário e instanciacão de objetos (Main).
 * `src/main/java/oop/entities`: **Domínio.** Classes coesas que encapsulam lógica de negócio, atributos e métodos.
 * `src/main/java/util`: **Helpers/Statics.** Classes utilitárias com membros estáticos para operações globais.
 * `fundamentals/conditional/repetitive`: Base sólida de lógica imperativa e algoritmos de alta performance.
@@ -31,10 +31,10 @@ Este repositório evoluiu de scripts simples para uma estrutura modular baseada 
 ### 📈 Dashboard de Evolução
 | Métrica | Status Atual | Meta (Junho/2026) |
 | :--- | :--- | :--- |
-| **Resoluções Beecrowd** | 32 / 100 | 100 Desafios |
+| **Resoluções Beecrowd** | 38 / 100 | 100 Desafios |
 | **Paradigma** | Orientação a Objetos | Design Patterns / SOLID |
 | **Clean Code** | Coesão e toString | DRY e Refatoração Avançada |
-| **Frequência** | 🟢 Diários (Foco em Qualidade) | Constância Absoluta |
+| **Frequência** | 🟢 Diários (Foco em Qualidade) | Constância |
 
 ---
 

@@ -13,7 +13,6 @@ public class RaioExTres {
         double radius = scanner.nextDouble();
 
 
-
         double c = CalculatorStatic.circumference(radius);
         double v = CalculatorStatic.volume(radius);
 

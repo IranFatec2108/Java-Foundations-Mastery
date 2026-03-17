@@ -10,6 +10,7 @@ public class AccountMain {
         //Scanner para o usuario atribuir o valor e locale para usar ponto no double
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
+
         //peço os valores e atribuo as variaveis
         System.out.println("Enter account number: ");
         int number = scanner.nextInt();
@@ -32,6 +33,7 @@ public class AccountMain {
         System.out.println("Account data:");
         System.out.println(account);
         System.out.println();
+
         //uso o metodo setter para depositar o valor
         System.out.println("Enter a deposit value:");
         double amount = scanner.nextDouble();
@@ -39,10 +41,12 @@ public class AccountMain {
         System.out.println("Updated account data:");
         System.out.println(account);
         System.out.println();
+
         //uso o setter para sacar o valor
         System.out.println("Enter a withdraw value:");
         amount = scanner.nextDouble();
         account.withdraw(amount);
+
         //mostro o objeto com os dados finais
         System.out.println("Updated account data:");
         System.out.print(account);

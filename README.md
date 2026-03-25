@@ -48,8 +48,8 @@ Utilizo o Maven para padronizar o build e a gestão de dependências:
 ### 🎯 Roadmap de Carreira (2026)
 
 - [x] **Fase 1:** Sintaxe, Lógica Imperativa e Estruturas de Repetição.
-- [ ] **Fase 2:** POO Avançado (Construtores, Sobrecarga, Memória e Membros Estáticos). **(EM PROGRESSO)**
-- [ ] **Fase 3:** Collections, Lambdas, Tratamento de Exceções e Generics.
+- [x] **Fase 2:** POO Avançado (Construtores, Sobrecarga, Memória e Membros Estáticos). 
+- [ ] **Fase 3:** Collections, Lambdas, Tratamento de Exceções e Generics. **(EM PROGRESSO)**
 - [ ] **Fase 4:** Spring Boot 3.x, REST APIs, JPA/Hibernate e PostgreSQL.
 
 ---

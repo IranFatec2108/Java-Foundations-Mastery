@@ -15,7 +15,8 @@ Este repositório evoluiu de scripts simples para uma estrutura modular baseada 
 * `src/main/java/oop`: **Orquestração.** Camada de interação com o usuário e instanciacão de objetos (Main).
 * `src/main/java/oop/entities`: **Domínio.** Classes coesas que encapsulam lógica de negócio, atributos e métodos.
 * `src/main/java/util`: **Helpers/Statics.** Classes utilitárias com membros estáticos para operações globais.
-* `fundamentals/conditional/repetitive`: Base sólida de lógica imperativa e algoritmos de alta performance.
+* `src/main/java/oop/vetores`: **Estruturas Estáticas.** Algoritmos de ordenação, agregação e filtragem operando direto na base da memória contígua.
+* `src/main/java/oop/listas`: **Estruturas Dinâmicas.** Implementação de Coleções (`ArrayList`), persistência em memória, algoritmos de busca por ID e gerenciamento de estado de objetos com flags booleanas.
 
 ### 🧠 Diferenciais de Engenharia
 * **Gestão de Memória:** Compreensão profunda de alocação dinâmica em **Stack vs Heap** e ciclo de vida de objetos.
@@ -23,8 +24,8 @@ Este repositório evoluiu de scripts simples para uma estrutura modular baseada 
 * **Membros Estáticos (static):** Implementação de métodos utilitários e constantes para operações sem estado, otimizando o uso do Heap.
 * **Sobrescrita de Métodos (Override):** Implementação personalizada de `toString()` para representação textual limpa e depuração eficiente.
 * **Higiene de Repositório:** Uso estratégico de `.gitignore` para versionamento exclusivo de código-fonte, garantindo um ambiente livre de artefatos de build (`out/`, `.idea/`).
-
-
+* **Manipulação de Referências:** Domínio sobre como o Java gerencia referências de memória dentro de Coleções, garantindo atualizações de estado seguras sem duplicar objetos.
+* **Git Workflow Avançado:** Versionamento semântico com *Conventional Commits*, resolução de conflitos de integração remoto/local e gestão estrita do `.gitignore`.
 
 ---
 
@@ -49,7 +50,7 @@ Utilizo o Maven para padronizar o build e a gestão de dependências:
 
 - [x] **Fase 1:** Sintaxe, Lógica Imperativa e Estruturas de Repetição.
 - [x] **Fase 2:** POO Avançado (Construtores, Sobrecarga, Memória e Membros Estáticos). 
-- [ ] **Fase 3:** Collections, Lambdas, Tratamento de Exceções e Generics. **(EM PROGRESSO)**
+- [ ] **Fase 3:** Collections (`ArrayList` ✔️), Lambdas, Tratamento de Exceções e Generics. **(EM PROGRESSO)**
 - [ ] **Fase 4:** Spring Boot 3.x, REST APIs, JPA/Hibernate e PostgreSQL.
 
 ---

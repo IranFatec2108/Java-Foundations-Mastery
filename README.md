@@ -31,7 +31,7 @@ Este repositório evoluiu de scripts simples para uma estrutura modular baseada 
 ### 📈 Dashboard de Evolução
 | Métrica | Status Atual | Meta (Junho/2026) |
 | :--- | :--- | :--- |
-| **Resoluções Beecrowd** | 39 / 100 | 100 Desafios |
+| **Resoluções Beecrowd** | 50 / 100 | 100 Desafios |
 | **Paradigma** | Orientação a Objetos | Design Patterns / SOLID |
 | **Clean Code** | Coesão e toString | DRY e Refatoração Avançada |
 | **Frequência** | 🟢 Diários (Foco em Qualidade) | Constância |
@@ -48,8 +48,8 @@ Utilizo o Maven para padronizar o build e a gestão de dependências:
 ### 🎯 Roadmap de Carreira (2026)
 
 - [x] **Fase 1:** Sintaxe, Lógica Imperativa e Estruturas de Repetição.
-- [ ] **Fase 2:** POO Avançado (Construtores, Sobrecarga, Memória e Membros Estáticos). **(EM PROGRESSO)**
-- [ ] **Fase 3:** Collections, Lambdas, Tratamento de Exceções e Generics.
+- [x] **Fase 2:** POO Avançado (Construtores, Sobrecarga, Memória e Membros Estáticos). 
+- [ ] **Fase 3:** Collections, Lambdas, Tratamento de Exceções e Generics. **(EM PROGRESSO)**
 - [ ] **Fase 4:** Spring Boot 3.x, REST APIs, JPA/Hibernate e PostgreSQL.
 
 ---
